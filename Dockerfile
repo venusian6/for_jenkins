@@ -15,5 +15,6 @@ COPY index.html /var/www/html/index.html
 EXPOSE 80
 
 # Start Apache in the foreground
-CMD ["apache2ctl", "-D", "FOREGROUND"] so what command i need to write in shell execute in jenkins 
+CMD ["apache2ctl", "-D", "FOREGROUND"] 
+#so what command i need to write in shell execute in jenkins 
 
